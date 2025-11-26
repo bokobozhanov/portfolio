@@ -13,7 +13,7 @@
   font-size: 14px;
   --color-text: #151515;
   --color-bg: #fff;
-  --color-link: #05e217;
+  --color-link: #ff3600;
   --color-link-hover: #000000;
   --color-close: #a22d1d;
   --page-padding: 1.5rem;
@@ -287,7 +287,7 @@ main {
   font-weight: 500;
   margin: 0;
   text-align: right;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.15s cubic-bezier(0.2, 0, 0.2, 1);
 }
 
@@ -398,6 +398,6 @@ main {
 
 @media screen and (min-width: 65em) {
   :root {
-    --column-count: 5;
+    --column-count: 3;
   }
 }
